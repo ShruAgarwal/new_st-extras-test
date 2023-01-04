@@ -1693,6 +1693,22 @@ streamlit = "*"
 streamlit-extras = "*"
 
 [[package]]
+name = "streamlit-image-coordinates"
+version = "0.1.1"
+description = "Streamlit component that displays an image and returns the coordinates when you click on it"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "streamlit-image-coordinates-0.1.1.tar.gz", hash = "sha256:ff103059ac9170622c7a30a294884941c192f72de6f5b4504ba129d1d36b0225"},
+    {file = "streamlit_image_coordinates-0.1.1-py3-none-any.whl", hash = "sha256:b1b1ae161e841d8da73a81b362a4a0b7e6fe2dbc32ffd298b8b60b4257cac7d6"},
+]
+
+[package.dependencies]
+jinja2 = "*"
+streamlit = ">=1.2"
+
+[[package]]
 name = "streamlit-keyup"
 version = "0.2.0"
 description = "Text input that renders on keyup"
@@ -1949,4 +1965,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.9.7 || >3.9.7,<4.0" # Apparently streamlit doesn't work with 3.9.7
-content-hash = "c6ea03412d350e6bb9137a0fd46332a22696ddb79a83559c438f119242ee7faa"
+content-hash = "22bf84002ec4636eaff4c5e42a3f70eba1825622c3b7174ad8323e505bfa10df"
